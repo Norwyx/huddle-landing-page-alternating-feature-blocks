@@ -130,7 +130,7 @@ textarea {
 
 /* Features section */
 .features {
-    margin: 15rem 13rem 10rem 13rem;
+    margin: 15rem 13rem 20rem 13rem;
 }
 
 .features-row {
@@ -159,6 +159,44 @@ textarea {
     width: 450px;
 }
 
+/* Block section */
+.block-container {
+    position: relative;
+}
+
+.block {
+    width: 650px;
+    margin: auto;
+    padding-bottom: 3rem;
+    position: absolute;
+    top: -105px;
+    right: 50px;
+    left: 50px;
+    border-radius: 15px;
+    background-color: var(--very-pale-cyan);
+}
+
+.block__title {
+    font-family: var(--ff-poppins);
+    font-size: 1.75rem;
+    text-align: center;
+    color: var(--very-dark-cyan);
+    margin-bottom: 2rem;
+}
+
+.block__btn {
+    margin: auto;
+    width: 50%;
+    background-color: var(--pink);
+    color: var(--very-pale-cyan);
+    border: none;
+    border-radius: 100px;
+    font-family: var(--ff-open);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1.3rem 1rem;
+}
+
 /* Footer section */
 footer {
     background-color: var(--very-dark-cyan);
@@ -170,7 +208,7 @@ footer {
 .footer-logo {
     width: 250px;
     height: auto;
-    margin: 10rem 0 2.5rem 5rem;
+    margin: 12rem 0 2.5rem 5rem;
 }
 
 .footer-info {
