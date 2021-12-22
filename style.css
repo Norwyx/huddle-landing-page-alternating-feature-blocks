@@ -10,6 +10,10 @@
     --nav-btn-shadow: 0px 4px 27px -6px rgba(0,0,0,0.15);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -30,6 +34,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.column {
+    flex-direction: column;
 }
 
 input,
@@ -118,4 +126,34 @@ textarea {
 .first--image {
     width: 700px;
     height: auto;
+}
+
+/* Features section */
+.features {
+    margin: 15rem 13rem 10rem 13rem;
+}
+
+.features-row {
+    justify-content: space-evenly;
+    gap: 8rem;
+    margin-bottom: 12rem;
+}
+
+.row--image {
+    width: 370px;
+    height: auto;
+}
+
+.row--title {
+    font-size: 1.8rem;
+    font-family: var(--ff-poppins);
+    color: var(--very-dark-cyan);
+    margin-bottom: 0.7rem;
+    align-self: flex-start;
+}
+
+.row--text {
+    font-size: 1rem;
+    color: var(--grayish-blue);
+    width: 450px;
 }
