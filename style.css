@@ -315,3 +315,28 @@ footer {
     margin-top: 1.5rem;
     margin-right: 5rem;
 }
+
+/* Responsive */
+/* 1920px / 120rem */
+@media (min-width: 120rem) {
+    .hero-content {
+        gap: 6rem;  
+    }
+
+    .hero-content__left {
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+
+    .first--image {
+        margin-right: 10rem;
+    }
+
+    .footer-content {
+        margin-left: 18rem;
+    }
+
+    .features-row {
+        gap: 0rem;
+    }
+}
