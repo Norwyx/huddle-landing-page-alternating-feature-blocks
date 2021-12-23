@@ -424,3 +424,38 @@ footer {
         margin-right: 0rem;
     }
 }
+
+/* 700px / 43.75rem */
+@media (max-width: 43.75rem) {
+    .nav__brand {
+        margin-left: 3rem;
+    }
+
+    .nav__btn {
+        margin-right: 3rem;
+    }
+
+    .hero-content__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features {
+        margin: 10rem 3rem 20rem 3rem;
+    }
+
+    .block {
+        width: 400px;
+    }
+
+    .block__title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .block__btn {
+        width: 60%;
+        padding: 1rem 1rem;
+    }
+}
