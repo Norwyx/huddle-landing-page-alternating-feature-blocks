@@ -83,6 +83,12 @@ textarea {
     border-radius: 100px;
     box-shadow: var(--nav-btn-shadow);
     margin-right: 5rem;
+    transition-duration: .4s;
+}
+
+.nav__btn:hover {
+    cursor: pointer;
+    color: var(--grayish-blue);
 }
 
 /* Hero content */
@@ -117,6 +123,12 @@ textarea {
     font-weight: 700;
     padding: 1rem 3.5rem;
     align-self: flex-start;
+    transition-duration: .4s;
+}
+
+.left--btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .hero-content__right {
@@ -195,6 +207,12 @@ textarea {
     font-weight: 600;
     font-size: 1rem;
     padding: 1.3rem 1rem;
+    transition-duration: .4s;
+}
+
+.block__btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 /* Footer section */
@@ -213,6 +231,15 @@ footer {
 
 .footer-info {
     gap: 8.5rem;
+}
+
+.column-item {
+    transition-duration: .4s;
+}
+
+.column-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .info__column-1 {
@@ -274,6 +301,11 @@ footer {
     font-size: 1rem;
     text-decoration: none;
     transition-duration: .4s;
+}
+
+.social-media--links a:hover {
+    border: 1px solid var(--pink);
+    color: var(--pink);
 }
 
 .copyright {
