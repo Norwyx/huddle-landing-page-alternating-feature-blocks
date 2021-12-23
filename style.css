@@ -371,7 +371,7 @@ footer {
     }
 }
 
-/* 970px / 60.625 */
+/* 970px / 60.625rem */
 @media (max-width: 60.625rem) {
     .hero {
         background-image: url(images/bg-hero-mobile.svg);
@@ -457,5 +457,102 @@ footer {
     .block__btn {
         width: 60%;
         padding: 1rem 1rem;
+    }
+}
+
+/* 630px / 39.375rem */
+@media (max-width: 39.375rem) {
+    .hero-nav {
+        height: 80px;
+        margin-top: 1rem;
+    }
+    
+    .nav__btn {
+        padding: 0.5rem 2rem;
+        margin-right: 1.5rem;
+        font-size: .875rem;
+    } 
+    
+    .nav__brand {
+        width: 120px;
+        margin-left: 1.5rem;
+    }
+
+    .hero-content {
+        margin-right: 2rem;
+    }
+
+    .hero-content__left {
+        margin-left: 2rem;
+    }
+
+    .first--title {
+        font-size: 1.5rem;
+    }
+
+    .hero-content__right {
+        margin-left: 2rem;
+    }
+
+    .first--image {
+        width: 343px;
+    }
+
+    .features {
+        margin: 8rem 1rem 16rem 1rem;
+    }
+
+    .row--image {
+        width: 343px;
+    }
+
+    .row--text {
+        font-size: 1rem;
+        color: var(--grayish-blue);
+        opacity: 0.6;
+        width: 290px;
+    }
+
+    .features-row {
+        gap: 4rem;
+        margin-bottom: 9rem;
+    }
+
+    .block {
+        width: 343px;
+        left: 15px;
+    }
+
+    .block__title {
+        font-size: 1.25rem;
+    }
+    
+    .block__btn {
+        width: 70%;
+        font-size: 0.875rem;
+        padding: 1rem 1rem;
+    }
+
+    .footer-logo {
+        width: 200px;
+        margin: 10rem 0 2.5rem 1.5rem;
+    }
+
+    .footer-info {
+        gap: 2rem;
+    }
+
+    .location {
+        width: 280px;
+        margin-top: -0.3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .info__column-1, .info__column-2, .info__column-3 {
+        margin-left: 1.5rem;
+    }
+
+    .info__column-2, .info__column-3 {
+        gap: 0.5rem;
     }
 }
